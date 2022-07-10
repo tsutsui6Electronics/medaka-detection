@@ -14,7 +14,7 @@ YOLOv5の転移学習には自作のデータセットを構築した。\
 そのデータに対して、Microsoft社が無償提供している画像アノテーションソフトウェアVoTT(https://github.com/microsoft/VoTT)
 を使用して、メダカに教師信号を付与した。\
 今回ラベルはmedakaの１つだけを設定して、アノテーションを行った。\
-その後、アノテーションデータをYOLOv5用のデータに変換するためにroboflow(https://roboflow.com/)
+その後、アノテーションデータをYOLOv5用の入力形式に変換するためにroboflow(https://roboflow.com/)
 のサービスを利用してデータセットを構築した。
 このデータセットを用いてYOLOv5を転移学習した。
 
