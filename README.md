@@ -20,7 +20,8 @@ YOLOv5の転移学習には自作のデータセットを構築した。\
 
 ## 利用方法
 このリポジトリをコピーする。
-モデルのパラメータをダウンロードし、コピーした`medaka-detection/`に展開する。
+モデルのパラメータ(https://github.com/tsutsui6Electronics/medaka-detection/releases/tag/YOLOv5_medaka-detection)
+をダウンロードし、コピーした`medaka-detection/`に展開する。
 その後jupyter notebook形式のプログラムを実行する。
 前半は1枚の画像に対して、後半は動画に対してメダカの検出を行うプログラムになっています。
 
